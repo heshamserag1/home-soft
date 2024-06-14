@@ -1,0 +1,198 @@
+body {
+  background-color: white;
+}
+.navbar-custom {
+    background-color:  rgba(28, 12, 39, 1)
+    
+  }
+  .navbar-nav .nav-link:hover {
+    background-color: #3d00af;
+    color: #fff;
+    transition: all 0.2s ease;
+    border-radius: 50%; 
+}
+.navbar-nav .nav-link {
+    color: #fff; 
+    transition: color 0.9s ease;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  #logo{
+    width: 9%;
+    height: auto;
+    border-radius: 50%;
+}
+  #logo:hover{
+    transition: all 0.2s ease;
+    width: 12%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  height: 550px;   
+  padding-bottom: 50%;
+}
+#box2{
+  margin-top: 20px;
+}
+.card {
+  padding-right: 20px;
+  margin-top: 60px;
+  display: flex;
+  max-width: 100%; /* تعديل العرض حسب الحاجة */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px blue;
+}
+
+.card-content {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.card-img {
+border-radius: 10%;
+  width: 300px; /* تعديل العرض حسب الحاجة */
+  height: 500px;
+}        
+.card-title {
+  margin-top: 70px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.btnn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: rgb(79, 79, 255);
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btnn:hover {
+  background-color: blue;
+}
+
+.card-text {
+  text-align: right;
+}
+
+.container {
+  display: flex;
+margin-top: 20px;
+}
+
+.word {
+  text-align: right;
+  font-size:50px;
+  color:black; /* لون الكلمة */
+}
+
+.line {
+margin-right:15px ;
+  margin-top: 35px;
+  width: 140px;
+  height: 1px; /* طول الخط */
+  background-color:black; /* لون الخط */
+}
+.text-container{
+  margin-inline: 10%;
+  
+}
+
+.containere {
+  display: flex;
+  flex-direction: row; /* تحديد الاتجاه الأفقي */
+}
+
+  .info-container {
+      margin: 20px;
+      color: black;
+      text-align: right;
+}
+
+
+
+.content {
+  text-align: center;
+}
+
+
+.button {
+  background-color: rgb(79, 79, 255);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.animated{
+  margin: 40px;
+}
+.alternating-list {
+  list-style-type: none;
+  padding: 0;
+}
+.alternating-list li:nth-child(odd) {
+  float: right;
+}
+.alternating-list li:nth-child(even) {
+  float: left;
+}
+.alternating-list{
+  margin: 20px;
+}
+.comments-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.comment-details {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+.commenter-name {
+  font-weight: bold;
+}
+
+.comment-text {
+  margin-top: 5px;
+}
+
+.comment-actions {
+  margin-top: 5px;
+}
+
+.comment-rating {
+  color: #888;
+}
+
